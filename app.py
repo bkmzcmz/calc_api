@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
+nobody = 0
+
 @app.route('/add', methods=['POST'])
 def add():
     data = request.get_json()
