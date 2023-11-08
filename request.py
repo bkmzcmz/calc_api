@@ -8,6 +8,8 @@ url_div = 'http://localhost:5000/divide'
 nobody = 0
 a = 15
 
+for
+
 while True:
     print('Введите выражение в виде: [число1] [+,-,*,/] [число2]')
     while True:
