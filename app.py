@@ -8,6 +8,10 @@ def add():
     result = data['num1'] + data['num2']
     return jsonify({'result': result})
 
+@app.route('/pass', methods=['POST'])
+def add():
+    pass
+
 @app.route('/subtract', methods=['POST'])
 def subtract():
     data = request.get_json()
