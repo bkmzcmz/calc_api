@@ -5,6 +5,9 @@ url_sub = 'http://localhost:5000/subtract'
 url_mul = 'http://localhost:5000/multiply'
 url_div = 'http://localhost:5000/divide'
 
+nobody = 0
+a = 15
+
 while True:
     print('Введите выражение в виде: [число1] [+,-,*,/] [число2]')
     while True:
